@@ -14,8 +14,5 @@ public abstract class PessoaBase : EntityBase
         Nome = nome;
     }
 
-    public void DefinirEndereco(Endereco endereco)
-    {
-        Endereco = endereco;
-    }
+    
 }

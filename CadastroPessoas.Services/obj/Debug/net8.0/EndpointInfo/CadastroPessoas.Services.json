@@ -36,19 +36,47 @@
         }
       }
     },
-    "/api/pessoas": {
-      "get": {
+    "/api/pessoas/{id}": {
+      "put": {
         "tags": [
           "Pessoas"
         ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePessoaFisicaCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePessoaFisicaCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePessoaFisicaCommand"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/pessoas/{id}": {
+      },
       "delete": {
         "tags": [
           "Pessoas"
@@ -70,6 +98,18 @@
           }
         }
       }
+    },
+    "/api/pessoas": {
+      "get": {
+        "tags": [
+          "Pessoas"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -77,6 +117,28 @@
       "CreatePessoaFisicaCommand": {
         "type": "object",
         "properties": {
+          "nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "cpf": {
+            "type": "string",
+            "nullable": true
+          },
+          "cep": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdatePessoaFisicaCommand": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
           "nome": {
             "type": "string",
             "nullable": true

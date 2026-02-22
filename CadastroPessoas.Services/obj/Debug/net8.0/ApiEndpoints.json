@@ -11,6 +11,27 @@
   },
   {
     "ContainingType": "PessoasController",
+    "Method": "Atualizar",
+    "RelativePath": "api/pessoas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "UpdatePessoaFisicaCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PessoasController",
     "Method": "Deletar",
     "RelativePath": "api/pessoas/{id}",
     "HttpMethod": "DELETE",
