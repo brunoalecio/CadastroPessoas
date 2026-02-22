@@ -10,3 +10,4 @@ C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Domain\obj\Debug\net
 C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Domain\obj\Debug\net8.0\refint\CadastroPessoas.Domain.dll
 C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Domain\obj\Debug\net8.0\CadastroPessoas.Domain.pdb
 C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Domain\obj\Debug\net8.0\ref\CadastroPessoas.Domain.dll
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Domain\obj\Debug\net8.0\CadastroPessoas.Domain.sourcelink.json

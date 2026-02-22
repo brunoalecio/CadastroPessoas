@@ -13,3 +13,4 @@ C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\obj\Debu
 C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\obj\Debug\net8.0\refint\CadastroPessoas.Application.dll
 C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\obj\Debug\net8.0\CadastroPessoas.Application.pdb
 C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\obj\Debug\net8.0\ref\CadastroPessoas.Application.dll
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\obj\Debug\net8.0\CadastroPessoas.Application.sourcelink.json

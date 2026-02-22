@@ -1,11 +1,8 @@
 ﻿using MediatR;
-using System;
 
-public record CreatePessoaFisicaCommand(
-    string Nome,
-    string CPF,
-    string Cep,
-    string Logradouro,
-    string Cidade,
-    string UF
-) : IRequest<Guid>;
+public class CreatePessoaFisicaCommand : IRequest<Guid>
+{
+    public string Nome { get; set; } = null!;
+    public string CPF { get; set; } = null!;
+    public string Cep { get; set; } = null!;
+}

@@ -17,3 +17,4 @@ C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Infrastructure.SqlSe
 C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Infrastructure.SqlServer\bin\Debug\net8.0\CadastroPessoas.Application.pdb
 C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Infrastructure.SqlServer\bin\Debug\net8.0\CadastroPessoas.Domain.pdb
 C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Infrastructure.SqlServer\obj\Debug\net8.0\Cadastro.1482281B.Up2Date
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Infrastructure.SqlServer\obj\Debug\net8.0\CadastroPessoas.Infrastructure.SqlServer.sourcelink.json

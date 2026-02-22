@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using CadastroPessoas.Infrastructure.SqlServer;
 
 public class EventStoreRepository : IEventStoreRepository
 {

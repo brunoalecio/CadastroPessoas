@@ -15,3 +15,4 @@ C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Infrastructure.Mongo
 C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Infrastructure.MongoDB\bin\Debug\net8.0\CadastroPessoas.Application.pdb
 C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Infrastructure.MongoDB\bin\Debug\net8.0\CadastroPessoas.Domain.pdb
 C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Infrastructure.MongoDB\obj\Debug\net8.0\Cadastro.C3C60959.Up2Date
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Infrastructure.MongoDB\obj\Debug\net8.0\CadastroPessoas.Infrastructure.MongoDB.sourcelink.json

@@ -1,4 +1,5 @@
 using CadastroPessoas.Application.Interfaces;
+using CadastroPessoas.Infrastructure.SqlServer;
 using CadastroPessoas.Infrastructure.SqlServer.Services;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -13,15 +14,6 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
 
 builder.Services.AddHttpClient<IViaCepService, ViaCepService>();
 
@@ -43,6 +35,15 @@ builder.Services.AddScoped<IMongoDatabase>(sp =>
     var client = sp.GetRequiredService<IMongoClient>();
     return client.GetDatabase("CadastroPessoasDB");
 });
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 app.UseHttpsRedirection();
 

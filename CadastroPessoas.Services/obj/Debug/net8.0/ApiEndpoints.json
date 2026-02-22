@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "PessoasController",
+    "Method": "Listar",
+    "RelativePath": "api/pessoas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PessoasController",
+    "Method": "CriarFisica",
+    "RelativePath": "api/pessoas/fisica",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "CreatePessoaFisicaCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
