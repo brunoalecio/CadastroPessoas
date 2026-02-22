@@ -25,4 +25,11 @@ public class PessoasController : ControllerBase
         var result = await _mediator.Send(new GetPessoasQuery());
         return Ok(result);
     }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> Deletar(Guid id)
+    {
+        var result = await _mediator.Send(new DeletePessoaCommand(id));
+        return Ok(result);
+    }
 }

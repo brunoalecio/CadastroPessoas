@@ -17,6 +17,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddHttpClient<IViaCepService, ViaCepService>();
 
+builder.Services.AddScoped<IPessoaProjectionRepository, PessoaProjectionRepository>();
+
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
 
@@ -25,7 +27,7 @@ builder.Services.AddScoped<IEventStoreRepository, EventStoreRepository>();
 
 builder.Services.AddScoped<IPessoaReadRepository, PessoaReadRepository>();
 
-builder.Services.AddMediatR(typeof(CreatePessoaFisicaHandler).Assembly);
+builder.Services.AddMediatR(typeof(CreatePessoaFisicaCommand).Assembly);
 
 builder.Services.AddSingleton<IMongoClient>(
     new MongoClient(builder.Configuration.GetConnectionString("Mongo")));

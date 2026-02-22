@@ -3,4 +3,5 @@
 public interface IPessoaWriteRepository
 {
     Task SaveAsync(PessoaBase pessoa);
+    Task DeleteAsync(Guid id);
 }

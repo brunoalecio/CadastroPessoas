@@ -20,6 +20,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\CadastroPessoas.Application\CadastroPessoas.Application.csproj" />
+		
 		<ProjectReference Include="..\CadastroPessoas.Infrastructure.SqlServer\CadastroPessoas.Infrastructure.SqlServer.csproj" />
 		<ProjectReference Include="..\CadastroPessoas.Infrastructure.MongoDB\CadastroPessoas.Infrastructure.MongoDB.csproj" />
 		<ProjectReference Include="..\CadastroPessoas.Domain\CadastroPessoas.Domain.csproj" />
