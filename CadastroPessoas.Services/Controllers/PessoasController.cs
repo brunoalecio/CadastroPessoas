@@ -19,6 +19,21 @@ public class PessoasController : ControllerBase
         return Ok(id);
     }
 
+    [HttpPut("{id}")]
+    public async Task<IActionResult> Atualizar(
+    Guid id,
+    [FromBody] UpdatePessoaFisicaCommand command)
+    {
+        var updatedCommand = command with { Id = id };
+
+        var result = await _mediator.Send(updatedCommand);
+
+        if (!result)
+            return NotFound();
+
+        return Ok(result);
+    }
+
     [HttpGet]
     public async Task<IActionResult> Listar()
     {

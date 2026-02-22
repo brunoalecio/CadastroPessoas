@@ -9,6 +9,13 @@ public class PessoaProjectionRepository : IPessoaProjectionRepository
         _collection = database.GetCollection<PessoaReadModel>("Pessoas");
     }
 
+    public async Task UpdateAsync(PessoaReadModel pessoa)
+    {
+        await _collection.ReplaceOneAsync(
+            x => x.Id == pessoa.Id,
+            pessoa);
+    }
+
     public async Task DeleteAsync(Guid id)
     {
         await _collection.DeleteOneAsync(x => x.Id == id);

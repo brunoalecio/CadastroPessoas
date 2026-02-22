@@ -26,4 +26,15 @@ public class PessoaWriteRepository : IPessoaWriteRepository
             await _context.SaveChangesAsync();
         }
     }
+
+    public async Task<PessoaFisica?> GetByIdAsync(Guid id)
+    {
+        return await _context.PessoasFisicas.FindAsync(id);
+    }
+
+    public async Task UpdateAsync(PessoaFisica pessoa)
+    {
+        _context.PessoasFisicas.Update(pessoa);
+        await _context.SaveChangesAsync();
+    }
 }
