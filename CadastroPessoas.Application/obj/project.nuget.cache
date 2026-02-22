@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "I8RM7jzHgm8=",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\CadastroPessoas\\CadastroPessoas\\CadastroPessoas.Application\\CadastroPessoas.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\mediatr\\8.0.0\\mediatr.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

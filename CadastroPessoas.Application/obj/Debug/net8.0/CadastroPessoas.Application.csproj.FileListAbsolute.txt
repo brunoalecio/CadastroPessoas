@@ -1,0 +1,15 @@
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\bin\Debug\net8.0\CadastroPessoas.Application.deps.json
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\bin\Debug\net8.0\CadastroPessoas.Application.dll
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\bin\Debug\net8.0\CadastroPessoas.Application.pdb
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\bin\Debug\net8.0\CadastroPessoas.Domain.dll
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\bin\Debug\net8.0\CadastroPessoas.Domain.pdb
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\obj\Debug\net8.0\CadastroPessoas.Application.csproj.AssemblyReference.cache
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\obj\Debug\net8.0\CadastroPessoas.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\obj\Debug\net8.0\CadastroPessoas.Application.AssemblyInfoInputs.cache
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\obj\Debug\net8.0\CadastroPessoas.Application.AssemblyInfo.cs
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\obj\Debug\net8.0\CadastroPessoas.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\obj\Debug\net8.0\Cadastro.EA3D948D.Up2Date
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\obj\Debug\net8.0\CadastroPessoas.Application.dll
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\obj\Debug\net8.0\refint\CadastroPessoas.Application.dll
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\obj\Debug\net8.0\CadastroPessoas.Application.pdb
+C:\Projetos\CadastroPessoas\CadastroPessoas\CadastroPessoas.Application\obj\Debug\net8.0\ref\CadastroPessoas.Application.dll
