@@ -1,0 +1,49 @@
+<div class="container">
+
+  <h2>Cadastro Pessoa Física</h2>
+
+  <div class="field">
+    <label>Nome</label>
+    <input [(ngModel)]="nome" />
+  </div>
+
+  <div class="field">
+    <label>CPF</label>
+    <input [(ngModel)]="cpf" />
+  </div>
+
+  <div class="field">
+    <label>CEP</label>
+    <input [(ngModel)]="cep" />
+  </div>
+
+  <button
+    class="btn-consultar"
+    (click)="consultarCep()"
+    [disabled]="carregandoCep || bloqueado">
+
+    {{ carregandoCep ? 'Consultando...' : 'Consultar CEP' }}
+
+  </button>
+
+  <div *ngIf="endereco" class="endereco-box">
+    <h4>Endereço encontrado</h4>
+    <p><strong>Logradouro:</strong> {{ endereco.logradouro }}</p>
+    <p><strong>Cidade:</strong> {{ endereco.localidade }}</p>
+    <p><strong>UF:</strong> {{ endereco.uf }}</p>
+  </div>
+
+  <button
+    class="btn-cadastrar"
+    (click)="cadastrar()"
+    [disabled]="!podeCadastrar || bloqueado">
+
+    Cadastrar
+
+  </button>
+
+  <div *ngIf="mensagem" class="sucesso">
+    {{ mensagem }}
+  </div>
+
+</div>
